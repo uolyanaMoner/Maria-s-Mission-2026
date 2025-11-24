@@ -13,7 +13,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/Maria-s-Mission-2026/' // مهم للنشر على GitHub Pages
+  base: '/Maria-s-Mission-2026/' ,// مهم للنشر على GitHub Pages
   build: {
     outDir: 'dist', // المجلد النهائي بعد build
   },
